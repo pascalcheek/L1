@@ -78,7 +78,6 @@ func produce(ch chan<- any, timeoutInSecs int) {
 			}
 		}
 
-		time.Sleep(300 * time.Millisecond) // Для демонстративности(можно убрать)
 	}
 }
 
